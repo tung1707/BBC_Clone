@@ -1,7 +1,7 @@
-#topbar /*chinh topbar vao center*/ {
+#topbar {
     width: 1000px;
     margin: 0 auto;
-    /*background-color:red;*/
+    
     height: 40px;
 }
 
@@ -14,14 +14,14 @@ body {
 #logo {
     margin-top: 8px;
     width: 100px;
-    float: left; /*de moi thu duoc them ben phai logo*/
+    float: left; 
     margin-right: 8px;
 }
 
 .topbar-section {
     float: left;
     border-left: 1px #CCCCCC solid;
-    height: 100%; /*tao vach ke giua cac phan*/
+    height: 100%; 
 }
 
 #signin-image {
@@ -56,7 +56,7 @@ body {
     font-weight: bold;
     font-size: 90%;
     padding: 13px 15px 0 15px;
-    height: 27px; /*tong height = height + padding,ma ta muon height = 40 = wigglyline ->height = 40-13=27*/
+    height: 27px; 
 }
 
 #more-arrow {
@@ -76,7 +76,7 @@ body {
 
 #magnifying-glass {
     height: 15px;
-    /*height:10px;*/
+   
     margin-top: 5px;
 }
 
@@ -114,7 +114,7 @@ h1 {
     margin: 5px 10px 0 0;
 }
 
-    #local-news a /*do link style just for local news*/ {
+    #local-news a  {
         color: white;
         text-decoration: none;
         font-size: 30px;
@@ -126,7 +126,7 @@ h1 {
             text-decoration: underline;
         }
 
-    #local-news img /*do image style for image in local news*/ {
+    #local-news img {
         height: 40px;
     }
 
@@ -157,7 +157,7 @@ h1 {
         }
 
 .no-border {
-    border: none !important; /*do no-border nam trong menu-bar-2 co border nen !important se uu tien thuc hien no-border cho class no-border*/
+    border: none !important; 
 }
 
 #down-arrow {
